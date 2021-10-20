@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#faq{
+  padding-top:50px;
+  background-color:#F6F6F6;
+  font-family: 'Chivo', sans-serif;
+}
+.faqheading{
+  font-size:24px;
+  text-align:center; 
+}
+#faqsection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+  }
+#faqsection h2{
+    text-align: center;
+    color:#FDFAF6;
+}
+.faqtext{
+    width:600px;
+    margin:20px;
+}
+  .accordion {
+    background-color:#F6F6F6;
+    color:#1D2D50;
+    cursor: pointer;
+    padding:10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 17px;
+    transition: 0.4s;
+    border:none;
+    border-radius:10px;
+    box-shadow:0 0 5px #1A1A1A;
+    font-family: 'Chivo', sans-serif;
+    font-weight:800;
+  }
+  
+  
+  .accordion:after {
+    content: '\002B';
+    color:#16223c;
+    font-weight: bold;
+    float: right;
+    font-size:30px;
+    margin-left:20px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  .panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color:#5B34DA;
+    margin:5px;
+    font-weight:900;
+  }
+  #contact{
+    padding-top:100px;
+    background-color:#F6F6F6;
+    padding-bottom:50px;
+  }
+  .contactheading{
+    text-align:center; 
+    font-size:24px; 
+    font-family: 'Chivo', sans-serif;
+  }
+  .contacticons{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+  }
+  .contacticon{
+    width:60px;
+    height:60px;
+    border:none;
+    border-radius:50%;
+    background-color:#FDFAF6;
+    box-shadow:0 0 14px 0 #1A1A1A;
+    margin:10px;
+    text-align:center;
+    cursor: pointer;
+    font-size:35px;
+  }
+ .contacticons i{
+   margin-top:12px;
+ }
+  #testimonysection{
+    background-color:#F6F6F6;
+    padding-top:10px;
+  }
+  #testimony{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:'Poppins', sans-serif;
+    outline:none;
+  }
+  .testimonybox{
+    width:300px;
+    height:350px;
+    border:2px solid #000000;
+    background-color:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:5px;
+    border-radius:15px;
+    text-align:center;
+  }
+  .testimonybox p{
+    margin:10px;
+    color:#000000;
+  }
+  .testimonybox h4{
+    margin:10px;
+    color:#1D2D50;
+    font-size:19px;
+  }
+  #testimonyheading {
+    margin-top:100px;
+    text-align:center; 
+    font-size:24px; 
+    font-family: 'Chivo', sans-serif;
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  @media only screen and (max-width: 600px) {
+    .contacticons i{
+      font-size:35px;
+    }
+  }
